@@ -6,15 +6,15 @@ const port = 3000;
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-  res.render("views/index.ejs");
+  res.render("index.ejs");
 });
 
 app.get("/pehel", (req, res) => {
-  res.render("views/pehel.ejs");
+  res.render("pehel.ejs");
 });
 
 app.get("/sahaayta", (req, res) => {
-  res.render("views/contact.ejs");
+  res.render("sahaayta.ejs");
 });
 
 app.listen(port, () => {
