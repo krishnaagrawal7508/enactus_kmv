@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Vidaloka&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -13,6 +15,7 @@
     from {
         font-size: 300%;
     }
+
     to {
         font-size: 500%;
     }
@@ -23,6 +26,7 @@
         border-bottom: 3px #ffc107 solid;
         border-width: 0px;
     }
+
     to {
         border-bottom: 1.5px #ffc107 solid;
     }
@@ -50,9 +54,10 @@ body {
 .navbar {
     border-bottom: 1.2px solid #000;
 }
-.nationals-item{
+
+.nationals-item {
     background-color: #FCCC34;
-    padding-right:0% ;
+    padding-right: 0%;
 }
 
 
@@ -65,28 +70,29 @@ body {
     margin-top: 10px;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 
-.dropdown-menu{
-    background-color:rgb(47,46,46);
-    padding-left:10%;
+.dropdown-menu {
+    background-color: rgb(47, 46, 46);
+    padding-left: 10%;
     padding-right: 15%;
     border-bottom: 1.2px solid #000;
 }
 
-.dropdown-item{
+.dropdown-item {
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     padding-left: 0%;
     padding-right: 0%;
 }
-.dropdown-item:hover{
+
+.dropdown-item:hover {
     color: #ffffff;
-    background-color:rgb(47, 46, 46);   
+    background-color: rgb(47, 46, 46);
     animation: underline forwards 0.2s;
 }
 
@@ -209,12 +215,12 @@ body {
     animation: underline forwards 0.2s;
 }
 
-.nationals-item:hover{
+.nationals-item:hover {
     background-color: #c8a32b;
 }
 
 
-.home-bg{
+.home-bg {
     height: 100%;
     width: 100%;
 }
@@ -294,32 +300,36 @@ body {
     text-align: left;
     margin-left: 70px;
 }
-.footer{
-    background-color:rgb(47,46,46);
+
+.footer {
+    background-color: rgb(47, 46, 46);
     display: inline-block;
     padding-top: 3%;
     padding-bottom: 3%;
 }
-.foot_col{
-    padding:2%,0%;    
+
+.foot_col {
+    padding: 2%, 0%;
 }
-.foot_logo{
+
+.foot_logo {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.social-icon{
+
+.social-icon {
     padding: 20px 15px;
 }
 
 
-.card img{
+.card img {
     transition: all 3s ease-in-out;
 }
 
 .card:hover img {
-    transform: scale(1.1,1.1);
-  cursor: pointer;
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
 }
 
 a i {
@@ -342,20 +352,20 @@ a:hover i {
     color: #00adb5;
 }
 
-.mail:hover{
+.mail:hover {
     color: #fbff00;
 }
 
-.linkedin:hover{
+.linkedin:hover {
     color: #0077b5;
 }
 
 
-.end-line{
+.end-line {
     text-decoration: none;
 }
 
-.end-line:hover{
+.end-line:hover {
     text-decoration: underline;
     opacity: 18;
 }
@@ -576,7 +586,7 @@ a:hover i {
 
 /* our team */
 
-.our-team{
+.our-team {
     text-align: center;
     margin-bottom: 100px;
     z-index: 1;
@@ -584,29 +594,36 @@ a:hover i {
 
 
 }
-.our-team .pic{
+
+.our-team .pic {
     border-radius: 50%;
     overflow: hidden;
     position: relative;
 }
-.our-team .pic:after{
+
+.our-team .pic:after {
     content: "";
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
     opacity: 0;
     position: absolute;
     top: 0;
     left: 0;
     transition: all 0.5s ease 0s;
 }
-.our-team:hover .pic:after{ opacity: 1; }
-.our-team .pic img{
+
+.our-team:hover .pic:after {
+    opacity: 1;
+}
+
+.our-team .pic img {
     width: 100%;
     height: auto;
 }
-.our-team .social{
+
+.our-team .social {
     width: 100%;
     padding: 0;
     margin: 0;
@@ -618,9 +635,16 @@ a:hover i {
     z-index: 1;
     transition: all 0.5s ease 0s;
 }
-.our-team:hover .social{ opacity: 1; }
-.our-team .social li{ display: inline-block; }
-.our-team .social li a{
+
+.our-team:hover .social {
+    opacity: 1;
+}
+
+.our-team .social li {
+    display: inline-block;
+}
+
+.our-team .social li a {
     display: block;
     width: 30px;
     height: 30px;
@@ -632,11 +656,13 @@ a:hover i {
     margin-right: 10px;
     transition: all 0.5s ease 0s;
 }
-.our-team .social li a:hover{
+
+.our-team .social li a:hover {
     background: #fff;
     color: #000;
 }
-.our-team .team-content{
+
+.our-team .team-content {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -647,23 +673,32 @@ a:hover i {
     z-index: -1;
     transition: all 0.5s ease 0s;
 }
-.our-team:hover .team-content{ border: 2px dotted #00adae; }
-.our-team .team-info{
+
+.our-team:hover .team-content {
+    border: 2px dotted #00adae;
+}
+
+.our-team .team-info {
     width: 100%;
     color: #464646;
     position: absolute;
     bottom: 12px;
     left: 0;
 }
-.our-team .title{
+
+.our-team .title {
     font-size: 20px;
     font-weight: 600;
     color: #464646;
     margin: 0 0 5px 0;
     transition: all 0.5s ease 0s;
 }
-.our-team:hover .title{ color: #00adae; }
-.our-team .post{
+
+.our-team:hover .title {
+    color: #00adae;
+}
+
+.our-team .post {
     display: block;
     font-size: 14px;
     color: #464646;
@@ -932,14 +967,17 @@ a:hover i {
     #welcome {
         margin-top: 30%;
     }
+
     #banner {
         top: 700px;
         left: -40px;
         width: 150%;
     }
+
     .newspic1 {
         display: none;
     }
+
     .newspic2 {
         margin: 0%;
         padding: 0%;
@@ -949,6 +987,7 @@ a:hover i {
         max-height: 100vh;
         margin: auto;
     }
+
     #contact_form {
         padding-top: 100px;
     }
@@ -959,10 +998,12 @@ a:hover i {
         padding: 0 0 0 0;
         margin: 0%;
     }
+
     .mentor {
         padding-bottom: 2%;
         margin-bottom: 0%;
     }
+
     .contactsubmit {
         display: block;
         margin-left: auto;
@@ -974,14 +1015,17 @@ a:hover i {
     #welcome {
         margin-top: 20%;
     }
+
     #banner {
         top: 500px;
         left: -50px;
         width: 200%;
     }
+
     .ourjumbo {
         margin-top: 10%;
     }
+
     #subscribe {
         font-family: 'Vidaloka', serif;
         font-size: 150%;
@@ -990,26 +1034,32 @@ a:hover i {
         position: relative;
         top: -30px;
     }
+
     #snsdiv {
         margin-left: 20px;
     }
+
     .contactsubmit {
         margin-left: 80px;
         margin-top: 30px;
         width: 200px;
         height: 50px;
     }
+
     #contact_form {
         padding-top: 0px;
     }
+
     .ourcontact {
         margin: 0%;
         padding-top: 5%;
     }
+
     .story {
         padding: 0%;
         padding-top: 5%;
     }
+
     .storycard {
         background-color: #fec61b;
         width: 40vw;
@@ -1018,48 +1068,60 @@ a:hover i {
         padding: 0px;
         margin: 0px;
     }
+
     .visionmission {
         font-size: 150%;
         margin-top: 20px;
     }
+
     .mission {
         margin-left: 5vh;
     }
+
     .visionmission_des {
         font-size: 100%;
     }
+
     .storyp {
         font-size: 140%;
     }
+
     #storyfooter {
         display: none;
     }
+
     .storyfooterm {
         display: block;
     }
+
     .projectslide {
         width: 80vw;
         height: fit-content;
     }
+
     .carouselcard {
         padding: 20px;
         width: 80vw;
         height: fit-content;
     }
+
     .achievement_card_title {
         padding: 0%;
         font-size: 200%;
         text-align: center;
     }
+
     .achievement_card_img {
         display: block;
         height: 18vh;
         margin-left: auto;
         margin-right: auto;
     }
+
     .card-body {
         font-size: 80%;
     }
+
     .projectsp {
         font-size: 120%;
         width: 90vw;
@@ -1067,19 +1129,24 @@ a:hover i {
         margin-left: auto;
         margin-right: auto;
     }
+
     .projectscard {
         margin-top: 0%;
         display: none;
     }
+
     .projectsp {
         font-size: 100%;
     }
+
     .projectstitle {
         font-size: 150%;
     }
+
     .mehsoos_logo {
         width: 75%
     }
+
     .mehsoos_des {
         font-size: 80%;
     }
@@ -1089,9 +1156,11 @@ a:hover i {
         margin-right: auto;
         width: 350px;
     }
+
     .p_n_a_name {
         font-size: 130%;
     }
+
     .p_n_a {
         font-size: 100%;
     }
@@ -1101,21 +1170,26 @@ a:hover i {
     .our {
         font-size: 200%;
     }
+
     #name {
         font-size: 250%;
     }
+
     #intro {
         width: 80vw;
         display: block;
         margin-right: auto;
         margin-left: auto;
     }
+
     #welcome {
         margin-top: 20%;
     }
+
     .ourjumbo {
         margin-top: 10%;
     }
+
     #subscribe {
         font-family: 'Vidaloka', serif;
         font-size: 120%;
@@ -1126,9 +1200,11 @@ a:hover i {
         position: relative;
         top: -30px;
     }
+
     .sns {
         width: 10vw;
     }
+
     .contactsubmit {
         display: block;
         margin-right: auto;
@@ -1137,30 +1213,38 @@ a:hover i {
         width: 200px;
         height: 50px;
     }
+
     #contact_form {
         padding-top: 0px;
     }
+
     .ourcontact {
         margin: 0%;
         padding-top: 5%;
     }
+
     .story {
         padding: 0%;
         padding-top: 5%;
     }
+
     .visionmission {
         font-size: 120%;
         margin-top: 20px;
     }
+
     .visionmission_des {
         font-size: 80%;
     }
+
     .storyp {
         font-size: 100%;
     }
+
     #storyfooter {
         display: none;
     }
+
     .form-group {
         margin: 0%;
         display: block;
@@ -1168,21 +1252,27 @@ a:hover i {
         margin-right: auto;
         padding: 2%;
     }
+
     .ourachievements {
         font-size: 200%;
     }
+
     .achievement_card_title {
         font-size: 150%;
     }
+
     .achievement_card_caption {
         font-size: 80%;
     }
+
     .card-body {
         font-size: 60%;
     }
+
     .readmore {
         font-size: 90%;
     }
+
     .projectsp {
         font-size: 70%;
     }
@@ -1192,12 +1282,14 @@ a:hover i {
         margin-right: auto;
         width: 300px;
     }
+
     #footer {
         font-size: 80%;
     }
+
     #carouselControls {
         width: 300px;
     }
 
 }
-
+  
