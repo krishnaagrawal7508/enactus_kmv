@@ -15,11 +15,7 @@ const port = 9000;
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-  res.json({messgae: "hello from express"});
-});
-
-app.get("/home", (req, res) => {
-  res.render("index.ejs", )
+  res.render("index.ejs")
 });
 
 app.get("/pehel", (req, res) => {
