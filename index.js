@@ -2,11 +2,15 @@ import express from "express";
 
 const app = express();
 app.set('view engine', 'ejs');
-const port = 3000;
+const port = 9000;
 
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
+  res.json({messgae: "hello from express"});
+});
+
+app.get("/home", (req, res) => {
   res.render("index.ejs");
 });
 
