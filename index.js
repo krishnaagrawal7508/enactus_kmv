@@ -19,10 +19,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/home", (req, res) => {
-  res.render("index.ejs", 
-  {
-    path_ : __dirname,
-  });
+  res.render("index.ejs", )
 });
 
 app.get("/pehel", (req, res) => {
